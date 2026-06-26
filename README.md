@@ -1,13 +1,13 @@
 # Go Task Manager API
 
-Простой и эффективный REST API микросервис для управления списком задач, написанный на Go (Golang) без использования сторонних фреймворков.
+A simple and efficient REST API microservice for managing a task list, written in Go (Golang) without using third-party frameworks.
 
-## Особенности проекта
-* Потокобезопасность: Защита данных от конкурентного доступа с помощью `sync.Mutex`.
-* Чистый код: Реализовано стандартное для Go идиоматичное логирование и обработка ошибок.
-* Качество кода: Логика приложения полностью покрыта Unit-тестами (`go test`).
-* REST API: Реализованы эндпоинты для создания, получения и завершения задач в формате JSON.
+## Project Features
+* **Thread Safety**: Data protection against concurrent access using `sync.Mutex`.
+* **Clean Code**: Implemented standard, idiomatic Go logging and error handling.
+* **Code Quality**: Application logic is fully covered by Unit tests (`go test`).
+* **REST API**: Endpoints are implemented for creating, retrieving, and completing tasks in JSON format.
 
-## Как запустить
-1. Запуск тестов: `go test -v ./task`
-2. Запуск сервера: `go run main.go`
+## How to Run
+1. Run tests: `go test -v ./task`
+2. Run server: `go run main.go`
