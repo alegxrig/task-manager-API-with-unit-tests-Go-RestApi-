@@ -11,3 +11,6 @@ A simple and efficient REST API microservice for managing a task list, written i
 ## How to Run
 1. Run tests: `go test -v ./task`
 2. Run server: `go run main.go`
+
+## Скриншот работы API
+![Task Manager API Screenshot](screenshot.png)
